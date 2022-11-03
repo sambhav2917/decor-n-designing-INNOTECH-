@@ -1,0 +1,201 @@
+/* libre-baskerville-regular - latin */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.para1{
+    width: 100%;
+    height: 61rem;
+    background: url("3.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+   
+}
+.para2{
+    font-family: 'Libre Baskerville';
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    
+}
+/* .para3{
+    width: 100%;
+    height: 61rem;
+    background: url("5.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.headings{
+    font-family: Josefin Slab;
+    font-style: normal;
+    font-weight: 500;
+    color: #002B5B;
+    margin: auto;
+    margin-left: 48%;
+    margin-top: 15%;
+    border: black;
+    font-size: 7rem;
+    position: absolute;
+    color: #002B5B;
+    text-shadow:
+      /* 0 0 7px #fff, */
+      /* 0 0 10px #fff, */
+      0 0 21px rgba(254, 255, 255, 0.724),
+      0 0 42px #fff,
+      0 0 52px #002a5bc2,
+      0 0 62px #002a5ba3,
+      0 0 92px #002B5B,
+      0 0 111px #002B5B;
+      text-decoration:underline ;
+}
+#head2{
+    margin-left: 52%;
+    margin-top: 24%;
+    font-size: 4rem;
+    text-decoration: none;
+}
+
+#wrapper{
+    height: 1200px;
+}
+    .skill_rows{
+        width: 95%;
+        margin: auto;
+        margin: 100px auto;
+        text-align: left;
+    }
+    .img2{
+        width: 40%;
+        height: 15%;
+        float: left; 
+        margin-right: 30px;
+        position: relative;
+        bottom:40px;
+        margin-left: 0%;
+    }
+    #decorImg{
+        height: 1200px;
+    }
+    .head2{
+        font-size: 3rem;
+        margin-bottom: 10px;
+        color: #43669a;
+    }
+    .para2{
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .wrapper{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      #nav_text1{
+        text-shadow:
+        /* 0 0 7px #fff,  */
+         0 0 10px #fff,
+        /* 0 0 21px rgba(254, 255, 255, 0.724), */
+        0 0 42px #fff,
+        0 0 52px #002a5bc2,
+        0 0 62px #002a5ba3,
+        0 0 92px #002B5B,
+        0 0 111px #002B5B;
+      }
+      #nav_text2{
+        text-shadow:
+        0 0 7px #fff, 
+         0 0 10px #fff,
+        0 0 21px rgba(254, 255, 255, 0.724),
+        0 0 42px #fff,
+        0 0 52px #002a5bc2,
+        0 0 62px #002a5ba3,
+        0 0 92px #002B5B,
+        0 0 111px #002B5B;
+      }
+
+      /* #decorBTN
+      {
+        font-size: 2rem;
+        height: 70px;
+        width: 190px;
+        background-color: #43669a;
+        border: none;
+        color: #fff;
+        margin-left: 20%;
+      }
+
+      #decorBTN:hover{
+        
+        background-color: #fff;
+        border: 1px solid #002B5B ;
+        color: #002B5B;
+        
+      }
+
+      #designBTN
+      {
+        font-size: 2rem;
+        height: 70px;
+        width: 190px;
+        background-color: #43669a;
+        border: none;
+        color: #fff;
+        margin-left: 20.5%;
+      }
+
+      #designBTN:hover{
+        
+        background-color: #fff;
+        border: 1px solid #002B5B ;
+        color: #002B5B;
+        
+      } */
+    
+
+      .button {
+        border-radius: 4px;
+        background-color: #002B5B;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        margin-left: 20%;
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+      #btn1{
+        margin-left:18%;
+      }
